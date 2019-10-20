@@ -1,0 +1,9 @@
+body, h1, h2.mdl-typography--display-3, span.mdl-typography--headline {
+	font-family: "Comfortaa";
+}
+
+@media screen and (max-width: 1024px) {
+	.mdl-layout__header {
+	  display: flex;
+	}
+}

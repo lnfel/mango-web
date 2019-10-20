@@ -19,26 +19,40 @@
 
   <!-- App content start -->
   <div class="mdc-layout-grid">
-  	<header class="mdc-layout-grid__inner" style="min-height: 350px; z-index: 1; justify-content: center;">
-			<div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle" style="width: 100%; text-align: center;">
-				<h2 class="mdl-typography--display-3">Mango System</h2>
-				<span class="mdl-typography--headline">Client Based Solutions</span>
+  	<header class="mdc-layout-grid__inner" style="">
+			<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle" style="width: 100%; text-align: center;">
+				<h2 class="mdc-typography--headline2">Mango System</h2>
+				<span class="mdc-typography--headline5">Client Based Solutions</span>
 				<p><b>We build solutions</b> for startups and established businesses.</p>
-				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="text-transform: capitalize;">
-				  Tell us about your project<i class="material-icons">arrow_right_alt</i>
+				<button class="mdc-button mdc-button--unelevated" style="text-transform: capitalize;">
+				  <span class="mdc-button__label">Tell us about your project<i class="material-icons mdc-button__icon">arrow_right_alt</i></span>
 				</button>
 			</div>
   	</header>
-  	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" style="margin-top: -24px; z-index: 2;">
-  		<div class="mdl-tabs__tab-bar">
-  			<a href="#panel1" class="mdl-tabs__tab is-active">Home</a>
-  			<a href="#panel2" class="mdl-tabs__tab">About</a>
-  		</div>
-  		<div class="mdl-tabs__panel is-active" id="panel1">
-  			
-  		</div>
-  		<div class="mdl-tabs__panel" id="panel2">
-  			
+  	<div class="mdc-tab-bar" role="tablist" style="margin-top: ; z-index: 2;">
+  		<div class="mdc-tab-scroller">
+	  		<div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll" style="width: 400px; margin: 0 auto;">
+	  			<div class="mdc-tab-scroller__scroll-content">
+	  				<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" id="btn1">
+	  					<span class="mdc-tab__content">
+	  						<span class="mdc-tab__text-label">Home</span>
+	  					</span>
+	  					<span class="mdc-tab-indicator mdc-tab-indicator--active">
+	  						<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+	  					</span>
+	  					<span class="mdc-tab__ripple"></span>
+	  				</button>
+	  				<button class="mdc-tab" role="tab" aria-selected="false" tabindex="-1" id="btn2">
+	  					<span class="mdc-tab__content">
+	  						<span class="mdc-tab__text-label">about</span>
+	  					</span>
+	  					<span class="mdc-tab-indicator">
+	  						<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+	  					</span>
+	  					<span class="mdc-tab__ripple"></span>
+	  				</button>
+	  			</div>
+	  		</div>
   		</div>
   	</div>
   </div>

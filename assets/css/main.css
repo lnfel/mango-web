@@ -1,0 +1,17 @@
+body {
+	font-family: "Comfortaa";
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+header {
+	padding-bottom: 2rem;
+	padding-top: 42px;
+}
+
+.nav {
+	width: fit-content;
+	margin: 0 auto;
+}

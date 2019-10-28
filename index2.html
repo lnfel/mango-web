@@ -7,10 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Client Based Solutions | Mango System</title>
 
-	<link rel="stylesheet" href="assets/css/materialize.css">
+	<link rel="stylesheet" href="assets/css/material.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/mango2.css">
 </head>
 <body>
 	<!--[if IE]>
@@ -18,28 +18,35 @@
   <![endif]-->
 
   <!-- App content start -->
-  <header>
-  	<div class="center-align">
-  		<h1>Mango System</h1>
-  		<h5>Client Based Solutions</h5>
-  		<p><b>We build solutions</b> for startups and established businesses.</p>
-  		<a class="waves-effect waves-light btn-large"><i class="material-icons right">keyboard_arrow_right</i>Tell us about your project</a>
+  <div class="mdl-layout mdl-js-layout">
+  	<div class="mdl-layout__header mdl-layout__header--scroll" style="min-height: 350px; z-index: 1; justify-content: center;">
+			<div class="mdl-grid">
+				<div class="" style="width: 100%; text-align: center;">
+					<h2 class="mdl-typography--display-3">Mango System</h2>
+					<span class="mdl-typography--headline">Client Based Solutions</span>
+					<p><b>We build solutions</b> for startups and established businesses.</p>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="text-transform: capitalize;">
+					  Tell us about your project<i class="material-icons">arrow_right_alt</i>
+					</button>
+				</div>
+			</div>
   	</div>
-  </header>
-  <div class="nav">
-	<ul id="tabs-swipe-demo" class="tabs" role="navigation" aria-label="Main">
-		<li class="tab col s3"><a href="#home" class="active">Home</a></li>
-		<li class="tab col s3"><a href="#about">About</a></li>
-		<li class="tab col s3"><a href="#link">Link</a></li>
-	</ul>
-	</div>
-  <div id="home" class="col s12 pink">Home here</div>
-  <div id="about" class="col s12 red">about here</div>
-  <div id="link" class="col s12 purple">about here</div>
-
+  	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" style="margin-top: -24px; z-index: 2;">
+  		<div class="mdl-tabs__tab-bar">
+  			<a href="#panel1" class="mdl-tabs__tab is-active">Home</a>
+  			<a href="#panel2" class="mdl-tabs__tab">About</a>
+  		</div>
+  		<div class="mdl-tabs__panel is-active" id="panel1">
+  			
+  		</div>
+  		<div class="mdl-tabs__panel" id="panel2">
+  			
+  		</div>
+  	</div>
+  </div>
   <!-- Script -->
   <script>window.jQuery || document.write('<script src="assets/js/jquery-3.4.1.min.js"><\/script>')</script>
-  <script type="text/javascript" src="assets/js/materialize.js"></script>
+  <script type="text/javascript" src="assets/js/material.min.js"></script>
   <!-- Awesome background using trianglify and d3 -->
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js'></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>

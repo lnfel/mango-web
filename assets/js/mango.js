@@ -17,3 +17,11 @@ var rs = Math.floor((Math.random() * 11) + 4);
 });
 var pattern = t.generate(window.innerWidth, window.innerWidth+200);
 //document.body.setAttribute('style', 'background-image: '+pattern.dataUrl);
+document.getElementsByTagName("header")[0].setAttribute('style', 'background-image: '+pattern.dataUrl);
+
+$(document).ready(function(){
+  $('ul.tabs').tabs({
+    swipeable : true,
+    responsiveThreshold : 1920
+  });
+});

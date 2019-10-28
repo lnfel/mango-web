@@ -7,11 +7,15 @@ h1 {
 }
 
 header {
-	padding-bottom: 2rem;
+	padding-bottom: 30px;
 	padding-top: 42px;
 }
 
 .nav {
 	width: fit-content;
 	margin: 0 auto;
+}
+
+.container {
+	padding: 1rem;
 }

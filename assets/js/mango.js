@@ -24,4 +24,6 @@ $(document).ready(function(){
     swipeable : true,
     responsiveThreshold : 1920
   });
+  $('.carousel.carousel-slider').css('min-height', '380vh');
+  $('.collapsible').collapsible();
 });

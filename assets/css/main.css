@@ -6,7 +6,12 @@ h1 {
 	margin-top: 0px;
 }
 
+a.active {
+	color: midnightblue;
+}
+
 header {
+	min-height: 80vh;
 	padding-bottom: 30px;
 	padding-top: 42px;
 }
